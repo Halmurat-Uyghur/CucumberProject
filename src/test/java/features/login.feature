@@ -1,8 +1,8 @@
 Feature: login functionality
 
   Scenario: valid login
-    Given user on login page
-    When user enter valid username and valid password
+    Given user open google page
+    When user search "haha"
     Then user navigated to the home page
 
 

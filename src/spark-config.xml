@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extentreports>
+
+    <configuration>
+
+
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- title of the document -->
+        <documentTitle>Extent Framework</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+                <img src="/Users/halmurattahir/IdeaProjects/CucumberProject/src/512x512bb.jpeg" alt="OLG" width="40" height="40"/>
+            ]]>
+        </reportName>
+
+
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+            $(document).ready(function() {
+
+            });
+        ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+            .report-name { padding-left: 10px; } .report-name > img { float:
+      left;height: 90%;margin-left: 30px;margin-top: 2px;width: auto; }
+        ]]>
+        </styles>
+
+        <!-- timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+    </configuration>
+</extentreports>
